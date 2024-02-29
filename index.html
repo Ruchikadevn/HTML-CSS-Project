@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.Html</title>
+    
+                
+
+                <h1 style="color: rgb(242, 10, 10);">Heading 1</h1>
+                <h2 style="color: #139090;">Heading 2</h2>
+                <h3 style="color: #ff00e6;">Heading 3</h3>
+                <h4 style="color: #3cff00;">Heading 4</h4>
+                <h5 style="color: #d0c2d7;">Heading 5</h5>
+                <h6 style="color: rgb(103, 116, 4);">Heading 6</h6>
+
+                <h2 style="background-color: #f50e0e;">What is HTML?</h2>
+
+                <p style="color: rgb(29, 172, 229);"> HTML stands for Hyper Text Markup Language. It uses to create and describe the structure of web pages.
+                   </p>
+                    <a href="index.html" target="_blank" >Click Here</a>
+                    <img src="https://austingil.com/wp-content/uploads/HTML-Blog-Cover.png" alt="Image" width="250px" height="200px">
+</head>
+<body>
+        
+        <h2 style="background-color: #FDD017;">Paragraphs Tag</h2>    
+
+        <p style="color: rgb(229, 29, 29);"  > This is background color</P>
+                    
+        <p style="color: rgb(167, 16, 16); ">RED SYMBOLIZE ENERGY,PASSION,STRENGTH & CREATIVITY.</p>
+
+        <p style="color: rgb(0, 0, 255);">BLUE IS THE SYMBOL OF WISDOM.</p>
+
+        <p style="color: rgba(21, 212, 49, 0.817);">GREEN REPRESENTS NEW BIRTH AND GROWTH.</p>
+
+        <h2 style="background-color: #17d3fd;">Div Tag</h2>    
+
+        <div style="background-color: rgb(211, 242, 133);"> Division tag  is also called block element.</div>
+
+        <h2 style="background-color: #fd1767;">Span Tag</h2>    
+
+        <span style="background-color:rgb(222, 175, 36);"> span tag is also called inline element.</span>
+
+        <span style="background-color:rgb(213, 31, 31);" > span tag  save text value only</span>
+ 
+        </body>
+ 
+
+<style>
+    table,tr,td,th{
+      
+        border: 2px solid rgb(120, 176, 36);
+        text-align:center;
+        border-collapse:collapse;
+
+</style>
+</head>
+<body>
+
+    <!-- Tables -->
+    <h3>Tables</h3>
+
+    <table style="width: 75%"> <!-- start of a table -->
+        
+        <!-- Table Body -->
+        <tr> <!-- Table Row -->
+        
+            <th>    <!-- Table Heading -->
+                INDIAN DANCE
+            </th>
+            <th> 
+                FOOD
+           </th>
+           <th>
+                LANGUAGE
+         </th>
+   </tr>
+    
+        
+        <!-- Table Head -->
+        <tr>
+            <td>    <!-- Table Data -->
+                lavani, Maharashtra
+            </td>
+            <td>
+                Puran poli
+            </td>
+            <td>
+                Marathi
+            </td>
+
+        </tr>
+        <tr>
+            <td>    <!-- Table Data -->
+                Garbha, Gujarat 
+            </td>
+            <td>
+                Khakra
+            </td>
+            <td>
+               Gujarati
+            </td>
+        </tr>
+        
+        <!-- Table Foot -->
+        <tr>
+            <td>
+                Jatra, Bihar
+            </td>
+            <td>
+                Litti Chokha
+            </td>
+            <td>
+                Bihari
+            </td>
+        
+        </tr>
+        
+    </table> <!-- end of a table -->
+
+    <hr>
+
+    <!--
+        Merging of cells :
+            - Rows
+                - Rowspan   -> Merging number of row's cells
+
+            - Columns
+                - Colspan   -> Merging number of column's cells
+    -->
+
+    <h4>Rowspan Example</h4>
+    <table style="width: 50%;">
+        <tbody>
+           <th>  
+
+           </th>
+           <th> least fav  </th>
+           <th> most fav  </th>
+
+            <tr>
+                <th rowspan="2">FRUITS</th>  <!-- Merges the 2 row's cell -->
+                <td>Grapes</td>
+                <td>Apple</td>
+            </tr>
+            <tr>
+                
+                <td>Mango</td>
+                <td>Banana</td>
+                
+            </tr>
+            
+            <tr>
+                <TH> VEGETABLE </TH>
+                <td>Potato</td>
+                <td>Brocolli</td>
+                
+                
+            </tr>
+            <tr>
+                <TH > DRY FRUITS </TH>
+                <td>Almond</td>
+                <td>Raisins</td>
+                
+                
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h4 style="background-color: #FDD017;">Colspan Example(Thinkers)</h4>
+    <table style="width: 50%;">
+        <tbody>
+            <tr>
+                <th>indian</th>
+                <th>foreign</th>
+            </tr>
+            <tr>
+                <th colspan="2">THINKERS</th> <!-- Merging 2 collumn's cells -->
+            </tr>
+            
+                <td  >"M.N. Shrinivas" </td>
+                <td>Karl Marx </td>
+            </tr>
+        </tr>
+                 <td >  A.M.Shah </td>
+                 <td>Max Weber </td>
+</tr>
+
+            
+
+
+        </tbody>
+    </table>
+    
+    
+    <h3> IFrames </h3>
+    <iframe src="./index.html" height="300px" width="400px" title="Example"></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d262390.9337730489!2d78.89273581849386!3d21.16436090122505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x19b37d06d0bb3e2b!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1708608529822!5m2!1sen!2sin" width="200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <iframe width="200" height="205" src="https://www.youtube.com/embed/iLMT8ZRliUU?si=InJmkPM0Wbn_jYxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+    <h4 style="background-color: #77db75;"> ORDERED LIST </h4>
+<ol>
+    <li style="color: rgb(232, 59, 200);"> Pink </li>
+    <li style="color:#d0c2d7;"> purple </li>
+    <li style="color: hsl(195, 86%, 64%);">blue </li>
+</ol>
+<ol type="A">
+    <li  style="color: #4B0082;"> Indigo </li>
+    <li  style="color: #df64a5:"> Peach </li>
+    <li style="color: #FF0000;">Red</li>
+   
+</ol>
+
+<h4 style="background-color: #77db75;"> UNORDERED LIST </h4>
+
+<ul><li style="color: rgb(232, 59, 200);"> Pink </li>
+    <li style="color:#d0c2d7;"> purple </li>
+    <li style="color: hsl(195, 86%, 64%);">blue </li>
+        </ul>
+
+<ul style="list-style-type: NUMBER">    
+    <li  style="color: #4B0082;"> Indigo </li>
+    <li  style="color: #df64a5:"> Peach </li>
+    <li style="color: #FF0000;">Red</li>
+        </ul>
